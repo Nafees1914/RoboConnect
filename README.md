@@ -12,16 +12,6 @@ This Chrome extension allows you to automatically send connection requests to pe
 - Skips profiles with a "Message" button.
 - Simple UI to start the process.
 
-# LinkedIn Auto Connect Chrome Extension
-
-## Description
-This Chrome extension allows you to automatically send connection requests to people in LinkedIn search results. It works on the first page of search results, and simulates human-like behavior by waiting for a random amount of time (between 5-10 seconds) before sending a request.
-
-### Features:
-- Automatically sends connection requests to people who have a "Connect" button.
-- Skips profiles with a "Message" button.
-- Simple UI to start the process.
-
 ## Installation
 
 ### 1. Clone the repository
