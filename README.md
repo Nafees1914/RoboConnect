@@ -35,20 +35,20 @@ Click "Start Connecting" in the popup to begin sending connection requests.
 - The extension works only on LinkedIn's search page.
 
 ### File Descriptions
-**1. manifest.json**
+**1. manifest.json**<br />
 Defines the metadata and permissions for the Chrome extension, specifying what scripts are injected and what permissions are needed for interacting with LinkedIn.
 
-**2. popup.html**
+**2. popup.html**<br />
 Contains the UI for the extension, including a button to start the connection requests and a status message.
 
-**3. popup.js**
+**3. popup.js**<br />
 Handles the user interaction in the popup and sends a message to content.js to start the connection request process.
 
-**4. content.js**
+**4. content.js**<br />
 Interacts with the LinkedIn page to find "Connect" buttons and send connection requests with random delays, while skipping "Message" buttons.
 
-**5. background.js**
+**5. background.js**<br />
 (Optional) Handles background tasks if needed. Not used in this basic version but can be extended for more complex operations.
 
-**6. style.css**
+**6. style.css**<br />
 Contains the CSS for styling the extension's popup UI, ensuring it is visually appealing and easy to use.
